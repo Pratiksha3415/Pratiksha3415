@@ -1,4 +1,4 @@
-## Hi there 👋 I'm Pratiksha
+## Hello,Pratiksha here!
 ---
 
 ### 📊 GitHub Stats
