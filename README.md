@@ -3,11 +3,11 @@
 
 ### 📊 GitHub Stats
 
-![Pratiksha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=radical)
+![Pratiksha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Pratiksha3415&show_icons=true&theme=radical)
 
 ### 🔥 Most Used Languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&theme=radical)
 
 ---
 
