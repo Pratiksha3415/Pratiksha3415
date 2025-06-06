@@ -1,16 +1,27 @@
-## Hi there 👋
+## Hi there 👋 I'm Pratiksha
+---
 
-<!--
-**Pratiksha3415/Pratiksha3415** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 📊 GitHub Stats
 
-Here are some ideas to get you started:
+![Pratiksha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=radical)
 
-- 🔭 I’m currently working on ...
+### 🔥 Most Used Languages
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&theme=radical)
+
+---
+
+- 🛠️ I’m currently working on ...
 - 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
+- 💬 Ask me about: Git, React, C++, Python, etc.
+- 📫 How to reach me:
+  - [Email](mailto:you@example.com)
+  - [LinkedIn](https://linkedin.com/in/yourusername)
+  - [Twitter](https://twitter.com/yourusername)
+  - [Instagram](https://instagram.com/yourusername)
+- 😄 Pronouns: Any
 - ⚡ Fun fact: ...
--->
+
+---
+
+> "Sometimes it's tough being the best." – *Technoblade*
