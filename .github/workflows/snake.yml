@@ -3,7 +3,11 @@ name: Generate Snake Animation
 on:
   schedule:
     - cron: "0 */12 * * *"   # runs every 12 hours
+<<<<<<< HEAD
   workflow_dispatch:          # lets you run it manually from the Actions tab
+=======
+  workflow_dispatch: {}       # allows manual trigger from the Actions tab
+>>>>>>> 9367820bf8ffe4f0ab8e233688a94534f3d4c92c
   push:
     branches:
       - main
@@ -13,6 +17,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+<<<<<<< HEAD
     timeout-minutes: 10
     steps:
       - name: Generate snake SVGs
@@ -28,5 +33,21 @@ jobs:
           target_branch: output
           build_dir: dist
           commit_message: "Update snake animation [skip ci]"
+=======
+    steps:
+      - name: Generate the snake game from GitHub contribution grid
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Pratiksha3415
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push output to the "output" branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+>>>>>>> 9367820bf8ffe4f0ab8e233688a94534f3d4c92c
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
