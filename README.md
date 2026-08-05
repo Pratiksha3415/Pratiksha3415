@@ -130,22 +130,6 @@ Landing an SDE Internship 🚀
 </details>
 
 <br/>
-
-<!-- ============================ SNAKE GAME ============================ -->
-<h2 align="center">🐍 Contribution Snake</h2>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/github-contribution-grid-snake.svg" width="100%"/>
-  </picture>
-</p>
-
-<p align="center"><i>⚙️ Requires a one-time GitHub Actions setup — see "Snake Animation Setup" below.</i></p>
-
-<br/>
-
 <!-- ============================ PROJECTS ============================ -->
 <h2 align="center">🚀 Featured Projects</h2>
 
