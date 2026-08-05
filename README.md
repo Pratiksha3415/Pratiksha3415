@@ -114,11 +114,6 @@ Landing an SDE Internship 🚀
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Pratiksha3415&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pratiksha3415&theme=tokyonight&hide_border=true" />
 </p>
 
@@ -148,15 +143,6 @@ Landing an SDE Internship 🚀
 </p>
 
 <p align="center"><i>⚙️ Requires a one-time GitHub Actions setup — see "Snake Animation Setup" below.</i></p>
-
-<br/>
-
-<!-- ============================ TROPHIES ============================ -->
-<h2 align="center">🏆 GitHub Trophies</h2>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Pratiksha3415&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=15" />
-</p>
 
 <br/>
 
