@@ -203,18 +203,6 @@ SEO analyzer web app built with React and Express that audits web pages and gene
 </div>
 
 <br/>
-
-<!-- ============================ CODING ACTIVITY ============================ -->
-<h2 align="center">⏱️ Coding Activity</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Pratiksha3415&theme=tokyonight&hide_border=true&layout=compact" />
-</p>
-
-<p align="center"><i>Connect your WakaTime account and replace the username above to activate this section.</i></p>
-
-<br/>
-
 <!-- ============================ QUOTE ============================ -->
 <div align="center">
 
