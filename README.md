@@ -30,7 +30,7 @@ I'm <b>Pratiksha Aghav</b>, a Backend Engineer Intern and B.Tech Computer Engine
 <h2 align="center">🔗 Connect With Me</h2>
 
 <p align="center">
-  <a href="https://linkedin.com/in/your-linkedin-handle" target="_blank">
+  <a href="https://www.linkedin.com/in/pratiksha-aghav-a38bab28a/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/Pratiksha3415" target="_blank">
@@ -39,7 +39,7 @@ I'm <b>Pratiksha Aghav</b>, a Backend Engineer Intern and B.Tech Computer Engine
   <a href="https://your-portfolio-link.com" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-00C9A7?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="mailto:your.email@example.com" target="_blank">
+  <a href="mailto:pratiksha.aghav2027@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
