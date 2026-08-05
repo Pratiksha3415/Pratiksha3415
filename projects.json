@@ -1,0 +1,44 @@
+[
+  {
+    "name": "FluentPath AI",
+    "repo": "Shahzaib-Malik77/FluentPath-AI",
+    "logo": "cl.png",
+    "description": "An AI-powered English learning app built with Flutter. Practice real-life conversations with smart AI tutors in a modern gamified experience.",
+    "tags": ["Flutter", "Dart", "AI", "Gamified"]
+  },
+  {
+    "name": "Game Portfolio",
+    "repo": "Shahzaib-Malik77/Game_portfolio",
+    "logo": "op.png",
+    "description": "Interactive gaming-themed personal developer portfolio built with modern web technologies, animations, and sleek design elements.",
+    "tags": ["JavaScript", "Web", "Interactive"]
+  },
+  {
+    "name": "Modern PortFolio",
+    "repo": "Shahzaib-Malik77/PortFolio",
+    "logo": "logo.png",
+    "description": "High-performance developer portfolio web application highlighting professional projects, animations, and modern UI/UX design.",
+    "tags": ["TypeScript", "NextJS", "UI/UX"]
+  },
+  {
+    "name": "Full Flutter Roadmap",
+    "repo": "Shahzaib-Malik77/FULL_FLUTTER_ROADMAP",
+    "logo": "onetele.png",
+    "description": "Comprehensive full-stack Flutter development roadmap, learning architecture guides, and professional code showcases.",
+    "tags": ["Flutter", "Dart", "Architecture"]
+  },
+  {
+    "name": "Water Delivery System",
+    "repo": "Shahzaib-Malik77/Drinking-Water-Delivery-System",
+    "logo": "claster.png",
+    "description": "A digital web application and management platform designed for streamlining and automating drinking water delivery logistics.",
+    "tags": ["HTML", "CSS", "Management"]
+  },
+  {
+    "name": "Flutter Dev Roadmap",
+    "repo": "Shahzaib-Malik77/Flutter-App-Developement-Roadmap",
+    "logo": "chess.png",
+    "description": "Curated resources, system architecture blueprints, and practical implementations for mastering Flutter mobile app development.",
+    "tags": ["Flutter", "Dart", "Mobile"]
+  }
+]
