@@ -1110,11 +1110,23 @@
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.26s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.26s" fill="freeze" /><text x="470" y="218" font-size="11.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Education </tspan><tspan fill="rgba(148,163,184,0.35)">..</tspan><tspan fill="#F8FAFC" font-weight="600"> B.Tech Computer Engineering, AISSMS Institute of Information Technology, Pune</tspan></text></g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.50s" fill="freeze" /><text x="470" y="258" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE" /><tspan fill="rgba(148,163,184,0.35)">..................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Open to Internship &amp; Full-Time Opportunities</tspan></text></g>
 <g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.62s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.62s" fill="freeze" />
+
+  <text x="470" y="278" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve">
+    <tspan fill="#22D3EE">Company </tspan>
+    <tspan fill="rgba(148,163,184,0.35)">...................................</tspan>
+    <tspan fill="#F8FAFC" font-weight="600"> Backend Engineer Intern, Flyrank AI</tspan>
+  </text>
+</g>
+
+<g opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.74s" fill="freeze" />
   <animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.74s" fill="freeze" />
+
   <text x="470" y="300" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve">
     <tspan fill="#22D3EE">ToolChain </tspan>
-    <tspan fill="rgba(148,163,184,0.35)">...................................</tspan>
+    <tspan fill="rgba(148,163,184,0.35)">..</tspan>
     <tspan fill="#F8FAFC" font-weight="600"> Git, GitHub, VS Code, Postman, Docker, AWS, Socket.IO,</tspan>
   </text>
 </g>
