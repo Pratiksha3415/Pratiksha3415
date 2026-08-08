@@ -23,7 +23,7 @@
   />
   <img
     width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=Pratiksha3415&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891A6&icon_color=00A876&text_color=08111F&bg_color=FFFFFF&card_width=500"
+    src="https://github-stats-extended.vercel.app/api?username=Pratiksha3415&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891A6&icon_color=00A876&text_color=08111F&bg_color=FFFFFF&card_width=500"
     alt="Pratiksha's GitHub stats"
   />
 </picture>
@@ -31,11 +31,11 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&langs_count=8&hide_border=true&title_color=00F5FF&text_color=9CA3AF&bg_color=050816&card_width=500"
+    srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&langs_count=8&hide_border=true&title_color=00F5FF&text_color=9CA3AF&bg_color=050816&card_width=500"
   />
   <img
     width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&langs_count=8&hide_border=true&title_color=0891A6&text_color=08111F&bg_color=FFFFFF&card_width=500"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&langs_count=8&hide_border=true&title_color=0891A6&text_color=08111F&bg_color=FFFFFF&card_width=500"
     alt="Pratiksha's Top Languages"
   />
 </picture>
