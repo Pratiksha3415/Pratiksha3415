@@ -4,9 +4,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c9a7&height=220&section=header&text=Pratiksha%20Aghav&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20•%20Full%20Stack%20MERN%20Developer%20•%20AI%20Enthusiast&descAlignY=58&descSize=18" width="100%"/>
 
-<a href="https://git.io/typing-svg">
+<!-- <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00C9A7&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=Pratiksha+Aghav;Backend+Engineer;Full+Stack+MERN+Developer;AI+Enthusiast;Open+Source+Contributor;Always+Learning" alt="Typing SVG" />
-</a>
+</a> -->
 </div>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
