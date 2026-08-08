@@ -1123,7 +1123,7 @@
 
   <text x="470" y="238" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve">
     <tspan fill="#22D3EE">Company </tspan>
-    <tspan fill="rgba(148,163,184,0.35)">..................................</tspan>
+    <tspan fill="rgba(148,163,184,0.35)">.......................</tspan>
     <tspan fill="#F8FAFC" font-weight="600"> Backend Engineer Intern, Flyrank AI</tspan>
   </text>
 </g>
@@ -1134,7 +1134,7 @@
 
   <text x="470" y="300" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve">
     <tspan fill="#22D3EE">ToolChain </tspan>
-    <tspan fill="rgba(148,163,184,0.35)">..................................</tspan>
+    <tspan fill="rgba(148,163,184,0.35)">................</tspan>
     <tspan fill="#F8FAFC" font-weight="600"> Git, GitHub, VS Code, Postman, Docker, AWS, Socket.IO,</tspan>
   </text>
 </g>
