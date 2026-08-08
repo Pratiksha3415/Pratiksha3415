@@ -97,27 +97,11 @@ I'm <b>Pratiksha Aghav</b>, a Backend Engineer Intern and B.Tech Computer Engine
 <table align="center">
 <tr>
 <td valign="top" width="50%">
-
-**🔭 Currently Working On**
-Backend systems & AI-powered developer tools
-
-**🌱 Currently Learning**
-System Design, Advanced DSA, Cloud (AWS)
-
-**👯 Looking to Collaborate On**
-Open source projects & full-stack MERN apps
-
-</td>
-<td valign="top" width="50%">
-
-**💬 Ask Me About**
-Node.js, Express, MongoDB, React, REST APIs
-
-**⚡ Fun Fact**
-I debug faster with coffee ☕ in hand
-
-**🎯 Current Goal**
-Landing an SDE Internship 🚀
+🔭 Currently Working On: Backend systems & AI-agent integrations (LangGraph)
+🌱 Currently Learning: System Design, Advanced DSA, Cloud (AWS)
+👯 Looking to Collaborate On: Full-stack MERN & backend projects
+💬 Ask Me About: Node.js, Express, NestJS, MongoDB, JWT Auth, REST APIs
+🎯 Current Goal: Landing an SDE Internship 🚀
 
 </td>
 </tr>
