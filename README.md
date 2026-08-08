@@ -27,7 +27,13 @@
 </div>
 <!-- ===== CONTRIBUTION SNAKE ===== -->
 <div align="center">
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="100%"/>
+
+<img
+  src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/github-contribution-grid-snake.svg"
+  width="100%"
+  alt="GitHub Contribution Snake"
+/>
+
 </div>
 <!-- ===== END SNAKE ===== -->
  <br/>
