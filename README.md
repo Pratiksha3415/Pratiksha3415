@@ -83,7 +83,10 @@
 <!-- ============================ INTRO ============================ -->
 <h2 align="center">👋 About Me</h2>
 <p align="center">
-I'm <b>Pratiksha Aghav</b>, a Backend Engineer Intern and B.Tech Computer Engineering student based in Pune, India, focused on building <b>scalable, production-grade backend systems</b> with the MERN stack. I enjoy solving hard problems — designing REST APIs with proper auth (JWT, role-based access), optimizing relational and document databases, and building AI-agent integrations (LangGraph + LLMs) into real backend workflows. Currently sharpening Data Structures & Algorithms and System Design while working through backend internship assignments (FlyRank, QSkill, AIVOA).
+I'm <b>Pratiksha Aghav</b>, a B.Tech Computer Engineering student and Backend/Full-Stack Developer based in Pune, India.
+I build backend systems using TypeScript, Node.js, Express, MongoDB and PostgreSQL, with a focus on REST APIs, authentication, database design and AI-powered applications.
+Currently strengthening my DSA, System Design, Cloud and AWS skills while building production-oriented projects.
+🎯 Looking for: SDE / Backend / Full-Stack internships.
 </p>
 
 <br/>
