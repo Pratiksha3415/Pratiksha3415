@@ -29,11 +29,9 @@
 
 <!-- ============================ INTRO ============================ -->
 <h2 align="center">👋 About Me</h2>
-
 <p align="center">
-I'm <b>Pratiksha Aghav</b>, a Backend Engineer Intern and B.Tech Computer Engineering student based in Pune, India, focused on building <b>scalable, production-grade backend systems</b> with the MERN stack. I enjoy solving hard problems — whether that's designing clean REST APIs, optimizing databases, or exploring how AI can be woven into real products. Currently sharpening my Data Structures & Algorithms and System Design fundamentals while actively contributing to open source and building in public.
+I'm <b>Pratiksha Aghav</b>, a Backend Engineer Intern and B.Tech Computer Engineering student based in Pune, India, focused on building <b>scalable, production-grade backend systems</b> with the MERN stack. I enjoy solving hard problems — designing REST APIs with proper auth (JWT, role-based access), optimizing relational and document databases, and building AI-agent integrations (LangGraph + LLMs) into real backend workflows. Currently sharpening Data Structures & Algorithms and System Design while working through backend internship assignments (FlyRank, QSkill, AIVOA).
 </p>
-
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Pratiksha3415&label=Profile%20Views&color=00c9a7&style=for-the-badge" alt="Profile views"/>
   <img src="https://img.shields.io/github/followers/Pratiksha3415?label=Followers&style=for-the-badge&color=00c9a7" alt="GitHub followers"/>
@@ -199,41 +197,6 @@ SEO analyzer web app built with React and Express that audits web pages and gene
 </tr>
 </table>
 
-<br/>
-
-<!-- ============================ ACHIEVEMENTS ============================ -->
-<h2 align="center">🏅 Achievements & Certifications</h2>
-
-<div align="center">
-
-| 🏆 Achievement | 📝 Details |
-|:---|:---|
-| 🇮🇳 Smart India Hackathon | Participant — national-level innovation hackathon |
-| ⛓️ VIT Blockchain Hackathon | Top 50 finalist |
-| ☕ Oracle Academy | Certified |
-| 🎓 NPTEL | Elite Silver Certification |
-| 💻 LeetCode | Consistent problem solver |
-| 🧩 HackerRank | Verified skill badges |
-
-</div>
-
-<br/>
-<!-- ============================ QUOTE ============================ -->
-<div align="center">
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-</div>
-
-<br/>
-
-<!-- ============================ FOOTER ============================ -->
-<div align="center">
-
-### 💭 "Code is like humor. When you have to explain it, it's bad." 
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c9a7,100:0f2027&height=150&section=footer&text=Thanks%20for%20Visiting!%20✨&fontSize=24&fontColor=ffffff&animation=fadeIn" width="100%"/>
-
-</div>
+<br>
 
 <!-- ===== END SOCIAL BADGES ===== -->
