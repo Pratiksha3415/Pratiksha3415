@@ -13,9 +13,9 @@
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
   <img alt="Pratiksha Aghav" src="./light.svg">
 </picture>
-
+<br>
 <!-- Stats + Top languages — side by side -->
-
+<h2 align="center">📊 GitHub Analytics</h2>
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -39,11 +39,17 @@
     alt="Pratiksha's Top Languages"
   />
 </picture>
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg"
+    alt="GitHub Contribution Snake"
+  />
+</p>
 
 </div>
 
 <!-- ===== CONTRIBUTION SNAKE ===== -->
-<h2 align="center">📊 GitHub Analytics</h2>
+
 <div align="center">
 
 <picture>
@@ -60,9 +66,7 @@
     src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg"
   />
  
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg" />
-</p>
+
 <details>
 <summary align="center"><b>📈 Contribution Graph (click to expand)</b></summary>
 <br/>
