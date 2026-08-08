@@ -144,59 +144,12 @@ Landing an SDE Internship 🚀
 
 <br/>
 <!-- ============================ PROJECTS ============================ -->
-<h2 align="center">🚀 Featured Projects</h2>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 CodeWatch — AI Code Review
-AI-powered code review platform that uses Gemini AI to analyze pull requests, flag issues, and suggest improvements automatically.
-
-**Tech Stack:** `React` `Node.js` `Express` `MongoDB` `Gemini AI`
-
-[![Demo](https://img.shields.io/badge/Demo-Live-00c9a7?style=flat-square&logo=vercel)](#)
-[![Repo](https://img.shields.io/badge/Repository-View-181717?style=flat-square&logo=github)](#)
-
-</td>
-<td width="50%" valign="top">
-
-### 🏙️ CivicLens
-Full-stack civic issue reporting platform enabling citizens to report, track, and resolve local civic problems.
-
-**Tech Stack:** `React` `Node.js` `Express` `MongoDB`
-
-[![Demo](https://img.shields.io/badge/Demo-Live-00c9a7?style=flat-square&logo=vercel)](#)
-[![Repo](https://img.shields.io/badge/Repository-View-181717?style=flat-square&logo=github)](#)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧑‍💼 AI Career Coach
-AI-driven resume analyzer and career guidance platform offering personalized feedback and roadmap suggestions.
-
-**Tech Stack:** `React` `Node.js` `Express` `MongoDB` `OpenAI API`
-
-[![Demo](https://img.shields.io/badge/Demo-Live-00c9a7?style=flat-square&logo=vercel)](#)
-[![Repo](https://img.shields.io/badge/Repository-View-181717?style=flat-square&logo=github)](#)
-
-</td>
-<td width="50%" valign="top">
-
-### 📈 Page Pulse
-SEO analyzer web app built with React and Express that audits web pages and generates actionable SEO reports.
-
-**Tech Stack:** `React` `Express` `Node.js` `REST API`
-
-[![Demo](https://img.shields.io/badge/Demo-Live-00c9a7?style=flat-square&logo=vercel)](#)
-[![Repo](https://img.shields.io/badge/Repository-View-181717?style=flat-square&logo=github)](#)
-
-</td>
-</tr>
-</table>
-
+<div align="center">
+ <img
+  width="100%"
+  src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/projects/projects.svg"
+  alt="Projects"
+/>
+</div>
 <br>
-
 <!-- ===== END SOCIAL BADGES ===== -->
