@@ -19,7 +19,7 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api?username=Pratiksha3415&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=00F5FF&icon_color=00FF9D&text_color=9CA3AF&bg_color=050816&card_width=500"
+    srcset="https://github-stats-extended.vercel.app/api?username=Pratiksha3415&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=00F5FF&icon_color=00FF9D&text_color=9CA3AF&bg_color=050816&card_width=500"
   />
   <img
     width="49%"
