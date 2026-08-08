@@ -1104,18 +1104,26 @@
 <text x="479" y="136" font-size="14" font-weight="700" fill="#E9D5FF">pratiksha.aghav2027@gmail.com</text></a>
 <line x1="740" y1="130" x2="1125" y2="130" stroke="rgba(255,255,255,0.10)" />
 </g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.90s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="0.90s" fill="freeze" /><text x="470" y="158" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Subject </tspan><tspan fill="rgba(148,163,184,0.35)">.......................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Pratiksha Aghav</tspan></text></g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.02s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.02s" fill="freeze" /><text x="470" y="178" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Role </tspan><tspan fill="rgba(148,163,184,0.35)">...</tspan><tspan fill="#F8FAFC" font-weight="600"> Computer Engineering Student | Full-Stack Developer(Mern) | Backend Engineer</tspan></text></g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.14s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.14s" fill="freeze" /><text x="470" y="198" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Origin </tspan><tspan fill="rgba(148,163,184,0.35)">...............................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Pune, Maharashtra, India</tspan></text></g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.26s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.26s" fill="freeze" /><text x="470" y="218" font-size="11.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Education </tspan><tspan fill="rgba(148,163,184,0.35)">..</tspan><tspan fill="#F8FAFC" font-weight="600"> B.Tech Computer Engineering, AISSMS Institute of Information Technology, Pune</tspan></text></g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.50s" fill="freeze" /><text x="470" y="258" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE" /><tspan fill="rgba(148,163,184,0.35)">..................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Open to Internship &amp; Full-Time Opportunities</tspan></text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.90s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="0.90s" fill="freeze" /><text x="470" y="158" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Subject </tspan><tspan fill="rgba(148,163,184,0.35)">.......................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Pratiksha Aghav</tspan></text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.02s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.02s" fill="freeze" /><text x="470" y="178" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Role </tspan><tspan fill="rgba(148,163,184,0.35)">...</tspan><tspan fill="#F8FAFC" font-weight="600"> Computer Engineering Student | Full-Stack Developer(Mern) | Backend Engineer</tspan></text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.14s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.14s" fill="freeze" /><text x="470" y="198" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Origin </tspan><tspan fill="rgba(148,163,184,0.35)">...............................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Pune, Maharashtra, India</tspan></text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.26s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.26s" fill="freeze" />
+      <text x="470" y="218" font-size="11.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Education </tspan><tspan fill="rgba(148,163,184,0.35)">..</tspan><tspan fill="#F8FAFC" font-weight="600"> B.Tech Computer Engineering, AISSMS Institute of Information Technology, Pune</tspan></text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.50s" fill="freeze" />
+      <text x="470" y="258" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE" />
+            <tspan fill="rgba(148,163,184,0.35)">..................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Open to Internship &amp; Full-Time Opportunities</tspan></text></g>
 <g opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.62s" fill="freeze" />
   <animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.62s" fill="freeze" />
 
-  <text x="470" y="278" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve">
+  <text x="470" y="238" font-size="14" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve">
     <tspan fill="#22D3EE">Company </tspan>
-    <tspan fill="rgba(148,163,184,0.35)">...................................</tspan>
+    <tspan fill="rgba(148,163,184,0.35)">..</tspan>
     <tspan fill="#F8FAFC" font-weight="600"> Backend Engineer Intern, Flyrank AI</tspan>
   </text>
 </g>
