@@ -68,10 +68,6 @@
 <p align="center">
 I'm <b>Pratiksha Aghav</b>, a Backend Engineer Intern and B.Tech Computer Engineering student based in Pune, India, focused on building <b>scalable, production-grade backend systems</b> with the MERN stack. I enjoy solving hard problems — designing REST APIs with proper auth (JWT, role-based access), optimizing relational and document databases, and building AI-agent integrations (LangGraph + LLMs) into real backend workflows. Currently sharpening Data Structures & Algorithms and System Design while working through backend internship assignments (FlyRank, QSkill, AIVOA).
 </p>
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Pratiksha3415&label=Profile%20Views&color=00c9a7&style=for-the-badge" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/Pratiksha3415?label=Followers&style=for-the-badge&color=00c9a7" alt="GitHub followers"/>
-</div>
 
 <br/>
 
