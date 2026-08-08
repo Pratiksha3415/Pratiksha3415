@@ -13,19 +13,29 @@
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
   <img alt="Pratiksha Aghav" src="./light.svg">
 </picture>
-
-<h2 align="center">Github Stats</h2>
-<div align="center">
-
-<img
-  src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/github-contribution-grid-snake.svg"
-  width="100%"
-  alt="GitHub Contribution Snake"
-/>
+<!-- Stats + Top languages — side by side -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=aryan17129&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=00F5FF&icon_color=00FF9D&text_color=9CA3AF&bg_color=050816&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=aryan17129&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891A6&icon_color=00A876&text_color=08111F&bg_color=FFFFFF&card_width=500" alt="Aryan's GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=aryan17129&layout=compact&langs_count=8&hide_border=true&title_color=00F5FF&text_color=9CA3AF&bg_color=050816&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryan17129&layout=compact&langs_count=8&hide_border=true&title_color=0891A6&text_color=08111F&bg_color=FFFFFF&card_width=500" alt="Top languages" />
+</picture>
 
 </div>
 
-<br/>
+<!-- ===== CONTRIBUTION SNAKE ===== -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aryan17129/aryan17129/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aryan17129/aryan17129/output/snake-light.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/aryan17129/aryan17129/output/snake-light.svg" />
+</picture>
+
+</div>
 
 <!-- ============================ INTRO ============================ -->
 <h2 align="center">👋 About Me</h2>
