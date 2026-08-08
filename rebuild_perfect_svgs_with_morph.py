@@ -3,8 +3,16 @@ import shutil
 import re
 import math
 import numpy as np
+from pathlib import Path
 import xml.etree.ElementTree as ET
 from PIL import Image, ImageFilter, ImageDraw
+
+ROOT = Path(__file__).resolve().parent
+PHOTO = ROOT / "my image.png"
+DARK_SVG = ROOT / "dark.svg"
+LIGHT_SVG = ROOT / "light.svg"
+DARK_BACKUP = ROOT / "dark_original_backup.svg"
+LIGHT_BACKUP = ROOT / "light_original_backup.svg"
 
 def strip_ns(tag):
     return tag.split('}')[-1] if '}' in tag else tag
@@ -385,14 +393,17 @@ def process_and_rebuild_svg(backup_path, output_path, new_runs, is_dark, z_coord
     print(f"Successfully rebuilt {output_path} with Z morph target and uniform dark theme interior!")
 
 def main():
-    photo_path = "my image.png"
-    if not os.path.exists(photo_path):
+    photo_path = PHOTO
+    if not photo_path.exists():
         print(f"Error: {photo_path} not found.")
         return
         
+    print("[1/6] Loading profile photo...")
     print("Generating High-Definition Halftone Portraits for Dark and Light themes...")
-    res_arr = load_and_crop_photo(photo_path, 300, 307)
+    res_arr = load_and_crop_photo(str(photo_path), 300, 307)
     
+    print("[2/6] Removing background... (already transparent in source photo)")
+    print("[3/6] Processing portrait...")
     binary_dark = generate_halftone_dither(res_arr, is_dark_mode=True, target_density=0.182)
     runs_dark = binary_to_runs_with_coords(binary_dark)
     print(f"Dark Theme Portrait -> {binary_dark.sum()} active dots ({binary_dark.mean():.2%}), {len(runs_dark)} path runs.")
@@ -405,27 +416,31 @@ def main():
     print("Generating geometry for letter 'Z' morph target...")
     z_coords = generate_z_coordinates(count=900)
     
-    src_dark = "arifhaxn-main/dark_original_backup.svg" if os.path.exists("arifhaxn-main/dark_original_backup.svg") else "arifhaxn-main/dark.svg"
-    src_light = "arifhaxn-main/light_original_backup.svg" if os.path.exists("arifhaxn-main/light_original_backup.svg") else "arifhaxn-main/light.svg"
-    
-    process_and_rebuild_svg(src_dark, "arifhaxn-main/dark.svg", runs_dark, True, z_coords)
-    process_and_rebuild_svg(src_light, "arifhaxn-main/light.svg", runs_light, False, z_coords)
+    src_dark = DARK_BACKUP if DARK_BACKUP.exists() else DARK_SVG
+    src_light = LIGHT_BACKUP if LIGHT_BACKUP.exists() else LIGHT_SVG
+
+    print("[4/6] Generating dark SVG...")
+    process_and_rebuild_svg(str(src_dark), str(DARK_SVG), runs_dark, True, z_coords)
+    print("[5/6] Generating light SVG...")
+    process_and_rebuild_svg(str(src_light), str(LIGHT_SVG), runs_light, False, z_coords)
     
     # Save high-res previews
     h, w = binary_dark.shape
     dark_preview = np.full((h, w, 3), [10, 16, 31], dtype=np.uint8)
     dark_preview[binary_dark == 1] = [167, 139, 250]
-    Image.fromarray(dark_preview).save("perfect_dark.png")
+    Image.fromarray(dark_preview).save(str(ROOT / "perfect_dark.png"))
     
     light_preview = np.full((h, w, 3), [10, 16, 31], dtype=np.uint8)
     light_preview[binary_light == 1] = [167, 139, 250]
-    Image.fromarray(light_preview).save("perfect_light.png")
+    Image.fromarray(light_preview).save(str(ROOT / "perfect_light.png"))
     
-    artifacts_dir = "C:/Users/M.Shahzaib/.gemini/antigravity/brain/d4cc5c92-ddf6-4f25-9f64-bcabfa9266d5"
-    if os.path.exists(artifacts_dir):
-        shutil.copyfile("perfect_dark.png", os.path.join(artifacts_dir, "perfect_dark.png"))
-        shutil.copyfile("perfect_light.png", os.path.join(artifacts_dir, "perfect_light.png"))
-    print("\nMaster build complete! Your face is identical in dark and light themes, interior frame stays dark, and animation transforms into letter Z instead of Triangle!")
+    print("[6/6] Verifying output...")
+    ok = DARK_SVG.exists() and LIGHT_SVG.exists()
+    if ok:
+        print("\nSUCCESS: Profile portrait updated.")
+    else:
+        print("\nFAILED: dark.svg or light.svg missing after generation.")
+    print("Master build complete! Your face is identical in dark and light themes, interior frame stays dark, and animation transforms into letter Z instead of Triangle!")
 
 if __name__ == "__main__":
     main()

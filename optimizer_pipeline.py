@@ -1,3 +1,16 @@
+"""
+DEPRECATED: superseded by rebuild_perfect_svgs_with_morph.py.
+
+This script is an earlier draft of the portrait pipeline. It still contains
+hardcoded Windows paths from the original author's machine and, in some
+cases, points at the OLD source photo (meeee.png, now in
+_old_source_backup/). Do not run this to regenerate the live portrait --
+use:
+
+    python rebuild_perfect_svgs_with_morph.py
+
+Kept only for reference to the halftone/dither logic it was built from.
+"""
 import os
 import re
 import math

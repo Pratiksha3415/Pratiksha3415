@@ -1,15 +1,27 @@
-import os
+"""
+Alternate swap-in helper for dark_new.svg/light_new.svg -> dark.svg/light.svg.
+See note in deploy_new_svgs.py — the main pipeline (rebuild_perfect_svgs_with_morph.py)
+no longer needs this step.
+"""
+from pathlib import Path
 import shutil
 
+ROOT = Path(__file__).resolve().parent
+
 print("Starting SVG portrait swap...")
-if os.path.exists("arifhaxn-main/dark_new.svg") and os.path.exists("arifhaxn-main/dark.svg"):
-    shutil.copyfile("arifhaxn-main/dark.svg", "arifhaxn-main/dark_original_backup.svg")
-    shutil.copyfile("arifhaxn-main/dark_new.svg", "arifhaxn-main/dark.svg")
+
+dark_new = ROOT / "dark_new.svg"
+dark_svg = ROOT / "dark.svg"
+if dark_new.exists() and dark_svg.exists():
+    shutil.copyfile(dark_svg, ROOT / "dark_original_backup.svg")
+    shutil.copyfile(dark_new, dark_svg)
     print("Successfully backed up original dark.svg and replaced portrait!")
 
-if os.path.exists("arifhaxn-main/light_new.svg") and os.path.exists("arifhaxn-main/light.svg"):
-    shutil.copyfile("arifhaxn-main/light.svg", "arifhaxn-main/light_original_backup.svg")
-    shutil.copyfile("arifhaxn-main/light_new.svg", "arifhaxn-main/light.svg")
+light_new = ROOT / "light_new.svg"
+light_svg = ROOT / "light.svg"
+if light_new.exists() and light_svg.exists():
+    shutil.copyfile(light_svg, ROOT / "light_original_backup.svg")
+    shutil.copyfile(light_new, light_svg)
     print("Successfully backed up original light.svg and replaced portrait!")
 
 print("All tasks finished successfully!")

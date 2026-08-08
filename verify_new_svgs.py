@@ -1,4 +1,7 @@
 import re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
 
 def verify(orig_path, new_path):
     with open(orig_path, 'r', encoding='utf-8') as f:
@@ -40,5 +43,5 @@ def verify(orig_path, new_path):
     else:
         print(f"FAILED: Found {structural_error_count} structural errors.")
 
-verify('arifhaxn-main/dark.svg', 'arifhaxn-main/dark_new.svg')
-verify('arifhaxn-main/light.svg', 'arifhaxn-main/light_new.svg')
+verify(str(ROOT / 'dark.svg'), str(ROOT / 'dark_new.svg'))
+verify(str(ROOT / 'light.svg'), str(ROOT / 'light_new.svg'))
