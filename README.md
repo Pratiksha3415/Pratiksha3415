@@ -1,3 +1,12 @@
+<!-- ===== THEME-AWARE HERO BANNER ===== -->
+<!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img alt="Pratiksha Aghav" src="./light.svg">
+</picture>
+
 <!-- ===== GITHUB STATS ===== -->
 
 <div align="center">
@@ -56,17 +65,17 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-dark.svg"
   />
 
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/github-contribution-grid-snake.svg"
+    srcset="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg"
   />
 
   <img
     alt="Pratiksha's GitHub Contribution Snake"
-    src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/github-contribution-grid-snake.svg"
+    src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg"
   />
 
 </picture>
