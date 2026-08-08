@@ -1,7 +1,7 @@
 <!-- ===== THEME-AWARE HERO BANNER ===== -->
 <!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
-<picture>
+<!--<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shahzaib-Malik77/Shahzaib-Malik77/main/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shahzaib-Malik77/Shahzaib-Malik77/main/light.svg">
   <img alt="Muhammad Shahzaib Wajid" src="https://raw.githubusercontent.com/Shahzaib-Malik77/Shahzaib-Malik77/main/light.svg">
