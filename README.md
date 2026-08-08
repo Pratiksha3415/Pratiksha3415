@@ -6,26 +6,14 @@
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
   <img alt="Pratiksha Aghav" src="./light.svg">
 </picture>
-
-<!-- ===== GITHUB STATS ===== -->
 <div align="center">
-<!-- Streak — full width -->
- <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Pratiksha3415&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
- <img width="100%" src="https://streak-stats.demolab.com/?user=Pratiksha3415&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="Pratiksha's streak" />
- </picture>
-<br/>
-<!-- Stats + Top languages — side by side -->
- <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=Pratiksha3415&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
- <img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=Pratiksha3415&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Pratiksha's GitHub stats" />
- </picture>
- <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
- <img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages" />
- </picture>
-</div>
-<!-- ===== CONTRIBUTION SNAKE ===== -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c9a7&height=220&section=header&text=Pratiksha%20Aghav&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20•%20Full%20Stack%20MERN%20Developer%20•%20AI%20Enthusiast&descAlignY=58&descSize=18" width="100%"/>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00C9A7&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=Pratiksha+Aghav;Backend+Engineer;Full+Stack+MERN+Developer;AI+Enthusiast;Open+Source+Contributor;Always+Learning" alt="Typing SVG" />
+</a>
+
 <div align="center">
 
 <img
@@ -35,38 +23,217 @@
 />
 
 </div>
-<!-- ===== END SNAKE ===== -->
- <br/>
- <br/>
- <div align="center">
- <img width="100%" src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/projects/projects.svg" alt="Projects" />
- </div>
-<!-- ===== SOCIAL BADGES ===== -->
- <br/>
- <div align="center">
-<a href="https://www.linkedin.com/in/pratiksha-aghav-a38bab28a/" target="_blank" rel="noopener noreferrer">
- <img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logoColor=white&labelColor=0A101F&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMDY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjUgMHoiLz48L3N2Zz4=" alt="LinkedIn" />
- </a>
-  
- <a href="YOUR_INSTAGRAM_URL" target="_blank" rel="noopener noreferrer">
- <img src="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=A78BFA&labelColor=0A101F" alt="Instagram" />
- </a>
-  
- <a href="https://github.com/Pratiksha3415" target="_blank" rel="noopener noreferrer">
- <img src="https://img.shields.io/badge/GitHub-0A101F?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0A101F" alt="GitHub" />
- </a>
-  
- <a href="YOUR_PORTFOLIO_URL" target="_blank" rel="noopener noreferrer">
- <img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=FFFFFF&labelColor=0A101F" alt="Portfolio" />
- </a>
-  
- <a href="mailto:pratiksha.aghav2027@gmail.com" target="_blank" rel="noopener noreferrer">
- <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
- </a>
-  
- </div>
-<!-- ===== END SOCIAL BADGES ===== -->
-<!-- =================================== -->
+</div>
 
+<br/>
+
+<!-- ============================ INTRO ============================ -->
+<h2 align="center">👋 About Me</h2>
+
+<p align="center">
+I'm <b>Pratiksha Aghav</b>, a Backend Engineer Intern and B.Tech Computer Engineering student based in Pune, India, focused on building <b>scalable, production-grade backend systems</b> with the MERN stack. I enjoy solving hard problems — whether that's designing clean REST APIs, optimizing databases, or exploring how AI can be woven into real products. Currently sharpening my Data Structures & Algorithms and System Design fundamentals while actively contributing to open source and building in public.
+</p>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Pratiksha3415&label=Profile%20Views&color=00c9a7&style=for-the-badge" alt="Profile views"/>
+  <img src="https://img.shields.io/github/followers/Pratiksha3415?label=Followers&style=for-the-badge&color=00c9a7" alt="GitHub followers"/>
+</div>
+
+<br/>
+
+<!-- ============================ SOCIAL LINKS ============================ -->
+<h2 align="center">🔗 Connect With Me</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/pratiksha-aghav-a38bab28a/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/Pratiksha3415" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://your-portfolio-link.com" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-00C9A7?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="mailto:pratiksha.aghav2027@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
+
+<br/>
+
+<!-- ============================ ABOUT DETAILS ============================ -->
+<h2 align="center">💡 Quick Facts</h2>
+
+<table align="center">
+<tr>
+<td valign="top" width="50%">
+
+**🔭 Currently Working On**
+Backend systems & AI-powered developer tools
+
+**🌱 Currently Learning**
+System Design, Advanced DSA, Cloud (AWS)
+
+**👯 Looking to Collaborate On**
+Open source projects & full-stack MERN apps
+
+</td>
+<td valign="top" width="50%">
+
+**💬 Ask Me About**
+Node.js, Express, MongoDB, React, REST APIs
+
+**⚡ Fun Fact**
+I debug faster with coffee ☕ in hand
+
+**🎯 Current Goal**
+Landing an SDE Internship 🚀
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ============================ TECH STACK ============================ -->
+<h2 align="center">🛠️ Tech Stack</h2>
+
+<p align="center"><b>Languages</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,py,java,js,ts,mysql" />
+</p>
+
+<p align="center"><b>Frontend</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,html,css,tailwind" />
+</p>
+
+<p align="center"><b>Backend</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,postman" />
+</p>
+
+<p align="center"><b>Database</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,firebase" />
+</p>
+
+<p align="center"><b>Tools & Platforms</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,aws" />
+</p>
+
+<br/>
+
+<!-- ============================ GITHUB STATS ============================ -->
+<h2 align="center">📊 GitHub Analytics</h2>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pratiksha3415&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pratiksha3415&theme=tokyo-night&hide_border=true" width="95%"/>
+</p>
+
+<details>
+<summary align="center"><b>📈 Contribution Graph (click to expand)</b></summary>
+<br/>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pratiksha3415&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
+</p>
+</details>
+
+<br/>
+<!-- ============================ PROJECTS ============================ -->
+<h2 align="center">🚀 Featured Projects</h2>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 CodeWatch — AI Code Review
+AI-powered code review platform that uses Gemini AI to analyze pull requests, flag issues, and suggest improvements automatically.
+
+**Tech Stack:** `React` `Node.js` `Express` `MongoDB` `Gemini AI`
+
+[![Demo](https://img.shields.io/badge/Demo-Live-00c9a7?style=flat-square&logo=vercel)](#)
+[![Repo](https://img.shields.io/badge/Repository-View-181717?style=flat-square&logo=github)](#)
+
+</td>
+<td width="50%" valign="top">
+
+### 🏙️ CivicLens
+Full-stack civic issue reporting platform enabling citizens to report, track, and resolve local civic problems.
+
+**Tech Stack:** `React` `Node.js` `Express` `MongoDB`
+
+[![Demo](https://img.shields.io/badge/Demo-Live-00c9a7?style=flat-square&logo=vercel)](#)
+[![Repo](https://img.shields.io/badge/Repository-View-181717?style=flat-square&logo=github)](#)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧑‍💼 AI Career Coach
+AI-driven resume analyzer and career guidance platform offering personalized feedback and roadmap suggestions.
+
+**Tech Stack:** `React` `Node.js` `Express` `MongoDB` `OpenAI API`
+
+[![Demo](https://img.shields.io/badge/Demo-Live-00c9a7?style=flat-square&logo=vercel)](#)
+[![Repo](https://img.shields.io/badge/Repository-View-181717?style=flat-square&logo=github)](#)
+
+</td>
+<td width="50%" valign="top">
+
+### 📈 Page Pulse
+SEO analyzer web app built with React and Express that audits web pages and generates actionable SEO reports.
+
+**Tech Stack:** `React` `Express` `Node.js` `REST API`
+
+[![Demo](https://img.shields.io/badge/Demo-Live-00c9a7?style=flat-square&logo=vercel)](#)
+[![Repo](https://img.shields.io/badge/Repository-View-181717?style=flat-square&logo=github)](#)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ============================ ACHIEVEMENTS ============================ -->
+<h2 align="center">🏅 Achievements & Certifications</h2>
+
+<div align="center">
+
+| 🏆 Achievement | 📝 Details |
+|:---|:---|
+| 🇮🇳 Smart India Hackathon | Participant — national-level innovation hackathon |
+| ⛓️ VIT Blockchain Hackathon | Top 50 finalist |
+| ☕ Oracle Academy | Certified |
+| 🎓 NPTEL | Elite Silver Certification |
+| 💻 LeetCode | Consistent problem solver |
+| 🧩 HackerRank | Verified skill badges |
+
+</div>
+
+<br/>
+<!-- ============================ QUOTE ============================ -->
+<div align="center">
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
+
+<br/>
+
+<!-- ============================ FOOTER ============================ -->
+<div align="center">
+
+### 💭 "Code is like humor. When you have to explain it, it's bad." 
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c9a7,100:0f2027&height=150&section=footer&text=Thanks%20for%20Visiting!%20✨&fontSize=24&fontColor=ffffff&animation=fadeIn" width="100%"/>
+
+</div>
 
 <!-- ===== END SOCIAL BADGES ===== -->
