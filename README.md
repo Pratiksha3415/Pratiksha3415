@@ -41,8 +41,8 @@
 </picture>
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg"
-    alt="GitHub Contribution Snake"
+    src="https://streak-stats.demolab.com/?user=Pratiksha3415&hide_border=true&background=050816&stroke=00F5FF&ring=00FF9D&fire=00FF9D&currStreakLabel=00F5FF&sideLabels=9CA3AF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF&titleColor=00F5FF"
+    alt="Pratiksha's GitHub Streak"
   />
 </p>
 
