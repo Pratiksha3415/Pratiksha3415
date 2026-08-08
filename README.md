@@ -43,7 +43,7 @@
 </div>
 
 <!-- ===== CONTRIBUTION SNAKE ===== -->
-
+<h2 align="center">📊 GitHub Analytics</h2>
 <div align="center">
 
 <picture>
@@ -59,9 +59,22 @@
     alt="Snake eating my contributions"
     src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg"
   />
-</picture>
+ 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg" />
+</p>
+<details>
+<summary align="center"><b>📈 Contribution Graph (click to expand)</b></summary>
+<br/>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pratiksha3415&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
+</p>
+</details>
 
+<br/>
+</picture>
 </div>
+
 
 <!-- ============================ INTRO ============================ -->
 <h2 align="center">👋 About Me</h2>
@@ -138,23 +151,7 @@ I'm <b>Pratiksha Aghav</b>, a Backend Engineer Intern and B.Tech Computer Engine
 
 <br/>
 
-<!-- ============================ GITHUB STATS ============================ -->
-<h2 align="center">📊 GitHub Analytics</h2>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pratiksha3415&theme=tokyonight&hide_border=true" />
-</p>
-
-
-<details>
-<summary align="center"><b>📈 Contribution Graph (click to expand)</b></summary>
-<br/>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pratiksha3415&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
-</p>
-</details>
-
-<br/>
 <!-- ============================ PROJECTS ============================ -->
 <div align="center">
  <img
