@@ -13,14 +13,31 @@
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
   <img alt="Pratiksha Aghav" src="./light.svg">
 </picture>
+
 <!-- Stats + Top languages — side by side -->
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Pratiksha3415&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=00F5FF&icon_color=00FF9D&text_color=9CA3AF&bg_color=050816&card_width=500" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Pratiksha3415&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891A6&icon_color=00A876&text_color=08111F&bg_color=FFFFFF&card_width=500" alt="Pratiksha's GitHub stats" />
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-stats.vercel.app/api?username=Pratiksha3415&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=00F5FF&icon_color=00FF9D&text_color=9CA3AF&bg_color=050816&card_width=500"
+  />
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api?username=Pratiksha3415&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891A6&icon_color=00A876&text_color=08111F&bg_color=FFFFFF&card_width=500"
+    alt="Pratiksha's GitHub stats"
+  />
 </picture>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&langs_count=8&hide_border=true&title_color=00F5FF&text_color=9CA3AF&bg_color=050816&card_width=500" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryan17129&layout=compact&langs_count=8&hide_border=true&title_color=0891A6&text_color=08111F&bg_color=FFFFFF&card_width=500" alt="Top languages" />
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&langs_count=8&hide_border=true&title_color=00F5FF&text_color=9CA3AF&bg_color=050816&card_width=500"
+  />
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratiksha3415&layout=compact&langs_count=8&hide_border=true&title_color=0891A6&text_color=08111F&bg_color=FFFFFF&card_width=500"
+    alt="Pratiksha's Top Languages"
+  />
 </picture>
 
 </div>
@@ -30,9 +47,18 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg" />
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg"
+  />
+  <img
+    alt="Snake eating my contributions"
+    src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg"
+  />
 </picture>
 
 </div>
