@@ -145,9 +145,6 @@ I'm <b>Pratiksha Aghav</b>, a Backend Engineer Intern and B.Tech Computer Engine
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pratiksha3415&theme=tokyonight&hide_border=true" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pratiksha3415&theme=tokyo-night&hide_border=true" width="95%"/>
-</p>
 
 <details>
 <summary align="center"><b>📈 Contribution Graph (click to expand)</b></summary>
