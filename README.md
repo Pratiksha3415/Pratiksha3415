@@ -14,6 +14,14 @@
   <img alt="Pratiksha Aghav" src="./light.svg">
 </picture>
 <br>
+
+<!-- ============================ INTRO ============================ -->
+<h2 align="center">👋 About Me</h2>
+<p align="center">
+I'm <b>Pratiksha Aghav</b>, a B.Tech Computer Engineering student and Backend/Full-Stack Developer based in Pune, India.
+I build backend systems using TypeScript, Node.js, Express, MongoDB and PostgreSQL, with a focus on REST APIs, authentication, database design and AI-powered applications.
+Currently strengthening my DSA, System Design, Cloud and AWS skills while building production-oriented projects.<br><br>🎯 Looking for: SDE / Backend / Full-Stack internships.
+</p>
 <!-- Stats + Top languages — side by side -->
 <h2 align="center">📊 GitHub Analytics</h2>
 <picture>
@@ -81,13 +89,6 @@
 </div>
 
 
-<!-- ============================ INTRO ============================ -->
-<h2 align="center">👋 About Me</h2>
-<p align="center">
-I'm <b>Pratiksha Aghav</b>, a B.Tech Computer Engineering student and Backend/Full-Stack Developer based in Pune, India.
-I build backend systems using TypeScript, Node.js, Express, MongoDB and PostgreSQL, with a focus on REST APIs, authentication, database design and AI-powered applications.
-Currently strengthening my DSA, System Design, Cloud and AWS skills while building production-oriented projects.<br><br>🎯 Looking for: SDE / Backend / Full-Stack internships.
-</p>
 
 <br/>
 
