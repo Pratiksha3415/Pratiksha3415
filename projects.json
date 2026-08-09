@@ -4,7 +4,8 @@
     "repo": "Pratiksha3415/codewatch",
     "logo": "codewatch.png",
     "description": "AI-powered code review and static analysis platform that flags issues and suggests improvements automatically. Includes CI workflow and environment config, unlike most of my other repos.",
-    "tags": ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Gemini AI"]
+    "tags": ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Gemini AI"],
+    "demo_url": "http://codewatch-ai.duckdns.org/"
   },
   {
     "name": "CivicLens",
@@ -40,13 +41,6 @@
     "logo": "taskapi.png",
     "description": "RESTful CRUD API for managing tasks, built with Node.js, Express, and SQLite, with Swagger UI documentation. Built as a backend internship assignment.",
     "tags": ["Node.js", "Express", "SQLite", "Swagger", "REST API"]
-  },
-  {
-    "name": "Qskill Backend Projects",
-    "repo": "Pratiksha3415/Qskill",
-    "logo": "qskill.png",
-    "description": "Todo and Book Catalog REST APIs built with Node.js, Express, and MongoDB, following REST API principles. Built as a backend internship assignment.",
-    "tags": ["Node.js", "Express", "MongoDB", "REST API"]
   },
   {
     "name": "Page Pulse",
