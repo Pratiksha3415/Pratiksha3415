@@ -65,7 +65,8 @@
     alt="Snake eating my contributions"
     src="https://raw.githubusercontent.com/Pratiksha3415/Pratiksha3415/output/snake-light.svg"
   />
- 
+
+ <br>
 
 <details>
 <summary align="center"><b>📈 Contribution Graph (click to expand)</b></summary>
