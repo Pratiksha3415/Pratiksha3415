@@ -16,13 +16,13 @@ from datetime import datetime, timezone
 THEMES = {
     "dark": {
         "BG": "#0A101F", "PANEL": "#0C1426", "PANEL_BAR": "#0B1222",
-        "CYAN": "#22D3EE", "VIOLET": "#A78BFA", "VIOLET2": "#7C3AED",
-        "EMERALD": "#10B981", "TEXT": "#F8FAFC", "MUTED": "#94A3B8",
+        "CYAN": "#00F5FF", "VIOLET": "#00FF9D", "VIOLET2": "#00C2FF",
+        "EMERALD": "#00FF9D", "TEXT": "#F8FAFC", "MUTED": "#94A3B8",
         "DIM": "#475569",
-        "STROKE": "rgba(34,211,238,0.28)", "STROKE_HI": "rgba(34,211,238,0.5)",
-        "STROKE_LO": "rgba(34,211,238,0.22)", "BARLINE": "rgba(255,255,255,0.08)",
-        "RING_BG": "rgba(148,163,184,0.15)", "PILL_BG": "rgba(124,58,237,0.28)",
-        "PILL_STROKE": "rgba(167,139,250,0.5)", "MONO_TX": "#EDE9FE",
+        "STROKE": "rgba(0,245,255,0.28)", "STROKE_HI": "rgba(0,245,255,0.5)",
+        "STROKE_LO": "rgba(0,245,255,0.22)", "BARLINE": "rgba(255,255,255,0.08)",
+        "RING_BG": "rgba(148,163,184,0.15)", "PILL_BG": "rgba(0,255,157,0.16)",
+        "PILL_STROKE": "rgba(0,255,157,0.5)", "MONO_TX": "#06120C",
     },
     "light": {
         "BG": "#F8FAFC", "PANEL": "#FFFFFF", "PANEL_BAR": "#F1F5F9",
@@ -46,7 +46,11 @@ def set_theme(name):
     g = globals()
     for k, v in t.items():
         g[k] = v
-    g["DONUT_COLORS"] = [t["VIOLET"], t["CYAN"], t["EMERALD"], "#6366F1", "#64748B", "#94A3B8"]
+    if name == "dark":
+        # cyan/neon-green family, kept distinguishable across up to 5 languages
+        g["DONUT_COLORS"] = ["#00FF9D", "#00F5FF", "#38E6C4", "#00C2FF", "#5EEAD4", "#64748B"]
+    else:
+        g["DONUT_COLORS"] = [t["VIOLET"], t["CYAN"], t["EMERALD"], "#6366F1", "#64748B", "#94A3B8"]
 
 set_theme("dark")
 
@@ -194,16 +198,28 @@ def card(p, x, y, idx):
         a(f'<text x="{tx + tw/2:.0f}" y="130" text-anchor="middle" font-size="9.5" fill="{VIOLET}">{esc(tag)}</text>')
         tx += tw + 7
 
-    # bottom row: stars + updated
+    # bottom row: stars + updated (+ optional "Live Demo" link, only when demo_url is set)
     stars = p.get("stars", 0)
+    demo_url = p.get("demo_url")
+    demo_tspan = ""
+    if demo_url:
+        demo_tspan = (f'<a href="{esc(demo_url)}" target="_blank">'
+                      f'<tspan fill="{EMERALD}" dx="14" text-decoration="underline">&#9654; Live Demo</tspan></a>')
     a(f'<text x="68" y="155" font-size="11" fill="{MUTED}">'
       f'<tspan fill="{CYAN}">&#9733;</tspan> {stars}'
-      f'<tspan fill="{DIM}" dx="14">updated {rel_time(p.get("pushed_at"))}</tspan></text>')
+      f'<tspan fill="{DIM}" dx="14">updated {rel_time(p.get("pushed_at"))}</tspan>'
+      f'{demo_tspan}</text>')
 
     # language donut, animated draw-in — vertically centered in the card body
+    # accepts either a {lang: bytes/percent} breakdown, or a single "language" string,
+    # so every card gets a language indicator regardless of which field the data has.
     langs = p.get("languages") or {}
+    if not langs:
+        single = p.get("language")
+        if single:
+            langs = {single: 1}
+    cx, cy, r = CARD_W - 58, CARD_H // 2 + 6, 27
     if langs:
-        cx, cy, r = CARD_W - 58, CARD_H // 2 + 6, 27
         segs, legend = donut_segments(langs, cx, cy, r, b + 0.3)
         a(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{RING_BG}" stroke-width="9"/>')
         a(segs)
@@ -217,6 +233,13 @@ def card(p, x, y, idx):
             a(f'<circle cx="{dot_x}" cy="{ly}" r="3.5" fill="{col}"/>')
             a(f'<text x="{text_x}" y="{ly+4}" font-size="10" fill="{MUTED}">{esc(lang)} {frac*100:.0f}%</text>')
             ly += 18
+    else:
+        # no language data at all — keep the slot filled instead of leaving it blank
+        a(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{RING_BG}" stroke-width="9"/>')
+        a(f'<text x="{cx}" y="{cy+4}" text-anchor="middle" font-size="10" font-weight="700" fill="{DIM}">N/A</text>')
+        dot_x = cx - r - 92
+        a(f'<text x="{dot_x+9}" y="{cy-4}" font-size="10" fill="{DIM}">No language data</text>')
+
     a('</g>')
     a('</a>')
     return "".join(e)
@@ -251,6 +274,11 @@ if __name__ == "__main__":
     outdir = sys.argv[2] if len(sys.argv) > 2 else "."
     with open(src) as f:
         projects = json.load(f)
+    # drop qskill regardless of how it's named in the data (name or repo field)
+    projects = [
+        p for p in projects
+        if "qskill" not in (str(p.get("name", "")) + str(p.get("repo", ""))).lower()
+    ]
     for p in projects:
         p["_logo_b64"] = load_logo_b64(p.get("logo"))
     for theme, fname in (("dark", "projects.svg"), ("light", "projects-light.svg")):
